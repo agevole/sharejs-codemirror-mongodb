@@ -9,18 +9,13 @@ It uses Mongo instead.
 
 ##Installation and Use##
 
+1. clone this repo
+2. make sure you have Mongo
+
 ###Server###
 
-Using Git:
-
-1. After cloning the repo, run `npm install` in its top level
-2. To launch the server, run `node .` in the top level. You can optionally pass a port to run on with the `-p` argument
-
-Using NPM:
-
-1. Create a directory for the project and `cd` into it
-2. Run `npm install share.js.codemirror.example` to install
-3. Run `node node_modules/share.js.codemirror.example` to start the server. You can optionally pass a port to run on with the `-p` argument
+1. start mongo with `mongod` in terminal
+2. run `node index.js`
 
 ###Client###
 
