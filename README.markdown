@@ -15,7 +15,7 @@ It uses Mongo instead.
 ###Server###
 
 1. start mongo with `mongod` in terminal
-2. run `node index.js`
+2. run `node index.js` on another tab.
 
 ###Client###
 
