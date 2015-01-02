@@ -10,6 +10,7 @@
 </style>
 
 <link rel="stylesheet" href="codemirror.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="./node_modules/codemirror/theme/paraiso-dark.css" type="text/css">
 
 <textarea id='pad' autofocus>Connecting...</textarea>
 
@@ -20,7 +21,9 @@
 
 <script>
 var cm = CodeMirror.fromTextArea( document.getElementById('pad') )
-cm.setOption('mode', 'javascript')
+cm.setOption('mode', 'javascript');
+cm.setOption('lineNumbers', true);
+cm.setOption('theme', 'paraiso-dark')
 //cm.setMode('javascript')
 
 var elem = document.getElementById('pad');
