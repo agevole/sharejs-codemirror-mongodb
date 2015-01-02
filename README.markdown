@@ -1,16 +1,16 @@
 sharejs.codemirror.example
 ==========================
 
-This repo was forked from charlieRobert's repo. It's goal is to make persistent documents rather than storing everything in a livedb.
+This repo was forked from charlieRobert's repo. It's goal is to make persistent documents rather than storing everything in memory.
 
-This way, documents aren't reset on a server restart.
+This way, documents aren't reset on a server restart like in the original example.
 
 It uses Mongo instead.
 
 ##Installation and Use##
 
 1. clone this repo
-2. make sure you have Mongo
+2. make sure you have Mongo (follow the instructions on mongo's main page to install: http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/)
 
 ###Server###
 
