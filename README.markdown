@@ -1,13 +1,11 @@
 sharejs.codemirror.example
 ==========================
 
-This repo was created so I would have a working share.js / codemirror example with the following traits:
+This repo was forked from charlieRobert's repo. It's goal is to make persistent documents rather than storing everything in a livedb.
 
-1. Use Share.js 7.x
-2. Use CodeMirror for the text editor
-3. Use WebSockets instead of browserchannel for client / server communication. I like browserchannel, 
-but I'm using share in a project that already has a huge number of dependencies.
-4. Use JavaScript instead of CoffeeScript. I don't know CoffeeScript, although I like the way it looks...
+This way, documents aren't reset on a server restart.
+
+It uses Mongo instead.
 
 ##Installation and Use##
 
